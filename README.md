@@ -63,3 +63,9 @@ Set up from [@justansub's Android TV Revival Blueprint](https://x.com/justansub/
 # Undo everything at any time with one command:
 .\scripts\undo-all.ps1
 ```
+
+
+---
+### 🤝 Hall of Kudos & Open-Source Attributions
+See [CREDITS.md](./CREDITS.md) or open [kudos.html](./kudos.html) to view the people, open-source creators, libraries, and AI pair-programming partners recognized across the **Primo IT Tech LLC** ecosystem.
+
