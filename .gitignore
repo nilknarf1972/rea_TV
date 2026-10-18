@@ -1,0 +1,9 @@
+# Gradle & Android build caches
+launcher-app/.gradle/
+launcher-app/build/
+launcher-app/app/build/
+launcher-app/local.properties
+*.iml
+.idea/
+.DS_Store
+Thumbs.db

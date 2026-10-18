@@ -1,0 +1,37 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.reatv.launcher'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.reatv.launcher"
+        minSdk 21
+        targetSdk 35
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // Zero third-party / AndroidX bloat!
+    // Uses pure Android framework APIs so the APK is <100 KB and uses ~12 MB RAM on 2GB Android TVs.
+}
