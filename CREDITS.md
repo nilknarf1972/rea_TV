@@ -17,6 +17,10 @@ Every application, hardware prototype, and utility in the **Primo IT Tech LLC** 
   Core engineering collaborator and upstream creator across **DreamNet** (*Genesis Protocol* lore & architecture), **ToolGym** (agentic tool-use qualification harness), **Proof Drop (ZABAL)**, **FlockGPScameras**, and **DeBlobisizer-Pro**.  
   🔗 [https://github.com/BrandonDucar](https://github.com/BrandonDucar) | [ToolGym](https://github.com/BrandonDucar/toolgym) | [Proof Drop](https://github.com/BrandonDucar/proof-drop-zabal)
 
+- **Chris Hallison**  
+  Original concept creator and hospitality/proximity product visionary behind **ChirsHallison** (*Drive-By Hospitality Yield, Closed-Channel Flash Room Matching & Expiring Coupon/Timeshare Proximity Alert Engine*).  
+  🔗 [https://github.com/nilknarf1972/ChirsHallison](https://github.com/nilknarf1972/ChirsHallison)
+
 - **Harry (`@harry0703`) & MoneyPrinterTurbo Contributors**  
   Creator and community contributors (including `mohit-twelvelabs`, `Paulo C. Benetti`, `kapil971390`, `nhatanh2996`, `EvolinkAI`) of **MoneyPrinterTurbo**, powering automated short-form video synthesis and captioning workflows.  
   🔗 [https://github.com/harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -57,6 +61,7 @@ Every application, hardware prototype, and utility in the **Primo IT Tech LLC** 
 
 ## 4. Open-Source License Compliance & IP Boundary Notice
 
-1. **Third-Party Open Source:** All third-party open-source repositories, frameworks, and libraries remain the property of their respective authors under their original licenses (MIT, Apache-2.0, BSD, CC).
-2. **Primo IT Tech LLC Proprietary IP:** Crediting open-source libraries, upstream inspirations, collaborators, or AI development tools does not transfer, waive, or dilute **Primo IT Tech LLC’s** exclusive copyright and ownership over its proprietary source code, credential migration schemas, hardware CAD/BOM specifications, or trademarks (© 2026 Primo IT Tech LLC, State of Florida. All Rights Reserved).
+1. **Third-Party Open Source & Upstream Projects:** All third-party open-source repositories, frameworks, and libraries remain the property of their respective upstream authors under their original licenses—specifically including **`calesthio/OpenMontage`** (licensed under **GNU AGPL-3.0**) and **`harry0703/MoneyPrinterTurbo`** (licensed under the **MIT License**), as well as MIT, Apache-2.0, BSD, and CC dependencies. Primo IT Tech LLC does not claim exclusive proprietary ownership over upstream open-source code.
+2. **Primo IT Tech LLC Integrations & Custom Engineering:** For original applications, hardware CAD/BOM specifications, SQL Server migration schemas, and custom portfolio integrations authored by **Primo IT Tech LLC**, copyright and trademark rights remain with Primo IT Tech LLC (© 2026 Primo IT Tech LLC, State of Florida), subject to all applicable upstream open-source license terms (including GNU AGPL-3.0 for OpenMontage derivatives and MIT for MoneyPrinterTurbo).
 3. **No Implied Endorsement:** Reference to any third-party creator, vendor, platform, or trademark is strictly for attribution and nominative fair use (17 U.S.C. § 1201(f)) and does not imply sponsorship or endorsement by those parties.
+

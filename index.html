@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rea TV (rea_TV) — Android TV Debloater &amp; Custom Home Screen — Primo IT Tech LLC</title>
+  <style>
+    :root { --bg:#0b0f19; --panel:#111827; --border:#1e293b; --text:#f8fafc; --muted:#94a3b8; --accent:#0284c7; --glow:#38bdf8; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
+    header { background:#0f172a; border-bottom:1px solid var(--border); padding:18px 28px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; }
+    .brand-pill { display:inline-block; font-size:11px; font-weight:800; letter-spacing:0.8px; color:var(--glow); background:rgba(56,189,248,0.12); border:1px solid rgba(56,189,248,0.3); padding:3px 10px; border-radius:99px; margin-bottom:6px; }
+    h1 { font-size:20px; font-weight:800; color:#fff; }
+    .sub { font-size:13px; color:var(--muted); margin-top:3px; }
+    .header-actions { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+    .btn { background:#1e293b; color:#e2e8f0; border:1px solid #334155; border-radius:99px; padding:8px 16px; font-size:12.5px; font-weight:700; cursor:pointer; text-decoration:none; display:inline-flex; align-items:center; gap:6px; transition:all 0.15s; }
+    .btn:hover { border-color:var(--glow); color:#fff; }
+    .btn-tour { background:rgba(56,189,248,0.16); color:var(--glow); border:1px solid var(--accent); }
+    .btn-full-tour { background:rgba(168,85,247,0.18); color:#d8b4fe; border:1px solid #a855f7; }
+    main { max-width:1280px; width:100%; margin:0 auto; padding:28px; flex:1; }
+    .cli-bar { background:#0f172a; border:1px solid var(--border); border-radius:10px; padding:12px 18px; margin-bottom:22px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; font-size:13px; }
+    .cli-bar code { font-family:'Consolas',monospace; color:#34d399; background:#020617; padding:4px 10px; border-radius:6px; border:1px solid #1e293b; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:18px; }
+    .card { background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:20px; transition:all 0.2s ease; }
+    .card-badge { display:inline-block; font-size:10.5px; font-weight:800; color:var(--glow); background:rgba(56,189,248,0.12); padding:3px 9px; border-radius:6px; margin-bottom:10px; }
+    .card h3 { font-size:16px; margin-bottom:8px; color:#fff; }
+    .card p { font-size:13.5px; line-height:1.55; color:var(--muted); }
+    footer { border-top:1px solid var(--border); padding:16px 28px; text-align:center; font-size:12px; color:#64748b; background:#0f172a; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <span class="brand-pill">PRIMO IT TECH LLC • GENESIS PROTOCOL 6/6 ACTIVE</span>
+      <h1>📺 Rea TV (rea_TV) — Android TV Debloater &amp; Ultra-Light Custom Home Screen</h1>
+      <div class="sub">Wi-Fi ADB Package Auditor, Safe Reversible Debloater &amp; 17 KB Zero-Ad Custom Launcher APK</div>
+    </div>
+    <div class="header-actions">
+      <button id="tourBtn" class="btn btn-tour" onclick="window.PrimoUniversalTours && window.PrimoUniversalTours.startQuickTour()">⚡ Quick Guided Tour</button>
+      <button id="fullTourBtn" class="btn btn-full-tour" onclick="window.PrimoUniversalTours && window.PrimoUniversalTours.startFullTour()">🎓 Full Guided Tour</button>
+      <a class="btn" href="/kudos.html">🤝 Kudos &amp; Credits</a>
+    </div>
+  </header>
+  <main>
+    <div class="cli-bar">
+      <span><strong>Local Quick-Start Command:</strong> <code>.\scripts\1-connect-and-audit.ps1 -TvIp 192.168.1.XX</code></span>
+      <span style="color:#94a3b8">Click <strong>⚡ Quick Guided Tour</strong> or <strong>🎓 Full Guided Tour</strong> anytime</span>
+    </div>
+    <div class="grid">
+      <section class="card" id="sec-1">
+        <div class="card-badge">1. WI-FI ADB AUDIT</div>
+        <h3>1. Plain-English Package Audit &amp; Baseline RAM Check</h3>
+        <p>Connects over Wi-Fi ADB (:5555), measures Free vs. Total RAM, and categorizes all packages into Safe to Turn Off, Streaming Apps You Use, and Protected TV Essentials.</p>
+      </section>
+      <section class="card" id="sec-2">
+        <div class="card-badge">2. SAFE DEBLOATER</div>
+        <h3>2. Reversible Debloating with Hard Safety Guardrails</h3>
+        <p>Uses <code>pm disable-user --user 0</code> to freeze sponsored rows and telemetry while hard-blocking removal of Google Play, Gboard keyboards, Bluetooth remotes, and HDMI inputs.</p>
+      </section>
+      <section class="card" id="sec-3">
+        <div class="card-badge">3. SPEED &amp; POWER</div>
+        <h3>3. Zero-Animation Speed &amp; Sleep Tuning</h3>
+        <p>Zeroes out window/transition/animator scales, disables heavy backdrop screensavers, and configures a clean 5-minute sleep timer.</p>
+      </section>
+      <section class="card" id="sec-4">
+        <div class="card-badge">4. CUSTOM LAUNCHER APK</div>
+        <h3>4. 17 KB Zero-Ad Custom Home Screen (com.reatv.launcher)</h3>
+        <p>Ultra-lightweight native Android TV launcher (~12 MB RAM) featuring a Big Clock, live Free RAM badge, Pinned Streaming Apps grid, and direct HDMI input tiles.</p>
+      </section>
+      <section class="card" id="sec-5">
+        <div class="card-badge">5. ONE-CLICK UNDO</div>
+        <h3>5. Complete One-Command Rollback (undo-all.ps1)</h3>
+        <p>Restores every disabled package, re-enables the stock launcher, and resets animations from <code>state/changes_log.json</code> in one command.</p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    © 2026 Primo IT Tech LLC (Florida) • Managing Member: Keith Franklin • Equipped with Quick &amp; Full Guided Tours
+  </footer>
+  <script src="/primo-universal-tours.js"></script>
+</body>
+</html>
